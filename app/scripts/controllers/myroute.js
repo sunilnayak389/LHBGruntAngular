@@ -2,18 +2,16 @@
 
 /**
  * @ngdoc function
- * @name testAppApp.controller:MainCtrl
+ * @name testAppApp.controller:MyrouteCtrl
  * @description
- * # MainCtrl
+ * # MyrouteCtrl
  * Controller of the testAppApp
  */
 angular.module('testAppApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MyrouteCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-    var vm =this;
-    vm.name = "I am grunt demo";
   });
